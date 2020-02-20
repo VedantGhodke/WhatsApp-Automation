@@ -1,12 +1,12 @@
-# WHATSAPP CODE BLASTER - VEDANT GHODKE
+# WHATSAPP CODE BLASTER - [VEDANT GHODKE]
 
-## Python Automation using Selenium &amp; Scheduling of messages and media
+## WhatsApp blaster automation using Selenium and Python
 
 ## Objective:
 This code is used to automate Whatsapp through Whatsapp web. We can
 add number of contacts whom we want to send messages or media
-attachments ( like videos, images or documents). Selenium, Autoit and Schedule have
-been used one for automation and other for scheduling messages.
+attachments (videos, images or documents) to. Selenium, Autoit and Schedule have
+been used; one for automation and others for scheduling messages.
 
 ---
 
