@@ -10,7 +10,7 @@ been used one for automation and other for scheduling messages.
 
 ---
 
-## Use Case:
+## Purpose of development:
 This contains a basic idea of my way to integrate a WhatsApp with core ERP (Enterprise Resource Planning) softwares for data abstraction and mass blasting for enabling clients and customers for real time tracking and updates
 
 ---
@@ -44,9 +44,9 @@ Remove the ChromeDriverused in the repository and install <a href =
 >  ChromeDriver Path in MacOS</a>
 
 ---
-### For Sending Attachments you need to Install AutoIt (Optional, if you only want to send messages) | (Only FOR WINDOWS USERS):
+### For sending attachments you need to install AutoIt (optional, only if you want to send messages) | (Only FOR WINDOWS USERS):
 
-You may install from the links given below or Install from the folder
+You may install from the links given below or install from the folder
 named "Install AutoIt for Sending Attachments" in the repository.
 
 <a href = "https://www.autoitscript.com/site/autoit/downloads/">Official
@@ -58,21 +58,20 @@ Website Download Webpage</a>
 <a href =
 "https://www.autoitscript.com/cgi-bin/getfile.pl?../autoit3/scite/download/SciTE4AutoIt3.exe"> AutoitScript Editor (optional to install) </a>
 
-Installation is pretty Simple no changes in setting are required keep
-everything default. Few clicks on Next and you are done.
+Installation is pretty simple. No changes in setting are required. Few clicks on Next button and you are done!
 
 ---
 
 ## Feature Enhancement: 
-QR CODE Scanning: On receiving a lot of complaints about QR Code Scanning Issue again and again. I have added a Cookie system that will save your session so that whatsapp don't think you are login for first time. By Saving Session data you will have to scan QR Code to Login only once or till the time whatsapp doesnot log you out from whatsappweb.
+QR CODE Scanning: I have added a cookie system that will save your session so that WhatsApp doesn't think you are logging in for the first time. By saving session data, you will have to scan QR Code to Login only once or till the time whatsapp does not log you out from whatsappweb.com
 
-NOTE: A folder User_Data will be created which has all your session information. Keep this Folder VERY SAFE. 
+NOTE: A folder User_Data will be created which has all your session information. Keep this Folder VERY SAFE! 
 
 ## Code:
 ### input_contacts()
 
-In this functions Contacts list can be hardcoded or you can give input
-accordingly.(Make changes in Contact array according to you)
+In this function, contacts list can be hardcoded or you can give input
+accordingly.(Make changes in 'Mob_Nos_2.xlsx' excel sheet according to you)
 
 
 ```
@@ -114,19 +113,19 @@ NOTE: If testing program for the first time scheduling should be `no`, to check 
 >Answer the input with either a yes or no.
 
 ### send_attachments()
-NOTE: Add Photos & Videos in the Media Folder.
+NOTE: Add photos or videos in the Media folder.
 
 image_path = os.getcwd() +"\\Media\\" + 'goodmorning.jpg'
 
-Example path to send goodmorning image to your listed Contacts.
+Example path to send goodmorning image to your listed contacts.
 
 *   "hour" variable is used to check current Hour on the clock and
 according image is sent to the Contact.
-*   If time is after 5am and before 11am schedule goodmorning.jpg image.
-*   If time is after 9pm schedule goodnight image.
-*   If time is anyother send howareyou image.
+*   If the time is post 5:00 AM, and prior to 11:00 AM, schedule goodmorning image.
+*   If the time is post 9:00 PM, schedule goodnight image.
+*   If it's any other time, send howareyou image.
 
-You can set your own photos at a particular time feel free to do that.
+You can set your own photos at a particular time. Feel free to do that!
 
 ### send_files()
 NOTE: Add the document in the documents folder.
@@ -138,7 +137,7 @@ NOTE: Add the document in the documents folder.
 with extension like opportunity.pdf or opportunity.txt
 
 
-### Schedule messages and Attachments
+### Schedule messages and attachments
 schedule.every().Monday.at("06:00").do(sender)
 
 schedule.every().Tuesday.at("07:00").do(sender)
@@ -158,4 +157,4 @@ vedantghodke@gmail.com
 
 Cell: +91 7798671025
 
-Feel free to mail me or call me for any queries! Always up for a great discussion!
+Feel free to mail me or call me up for any further queries! Always up for a brain-storming session and a great discussion!
