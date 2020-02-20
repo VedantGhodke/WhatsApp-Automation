@@ -155,6 +155,7 @@ schedule.every().day.at("08:30").do(sender)
 ## <a href="https://www.linkedin.com/in/vedant-ghodke-34b124168/">VEDANT GHODKE</a>
 
 vedantghodke@gmail.com
+
 Cell: +91 7798671025
 
 Feel free to mail me or call me for any queries! Always up for a great discussion!
