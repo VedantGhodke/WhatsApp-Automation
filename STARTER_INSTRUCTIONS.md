@@ -1,21 +1,17 @@
-# PyWhatsapp
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://github.com/shauryauppal/PyWhatsapp)  [![License](https://img.shields.io/github/license/shauryauppal/PyWhatsapp.svg)](https://github.com/shauryauppal/PyWhatsapp/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/shauryauppal/PyWhatsapp.svg)](https://github.com/shauryauppal/PyWhatsapp/stargazers)  [![HitCount](http://hits.dwyl.io/shauryauppal/PyWhatsapp.svg)](http://hits.dwyl.io/shauryauppal/PyWhatsapp)
+# WHATSAPP CODE BLASTER - VEDANT GHODKE
 
 ## Python Automation using Selenium &amp; Scheduling of messages and media
 
 ## Objective:
-Pywhatsapp is used to Automate Whatsapp through Whatsapp web. We can
-add number of contacts whom we want to send messages or Media
-attachments ( like Video or Images). Selenium, Autoit and Schedule have
-been used one from Automation and other for Scheduling messages.
+This code is used to automate Whatsapp through Whatsapp web. We can
+add number of contacts whom we want to send messages or media
+attachments ( like videos, images or documents). Selenium, Autoit and Schedule have
+been used one for automation and other for scheduling messages.
 
 ---
 
 ## Use Case:
-We can schedule Good Morning or Good night messages with a nice Picture
-at a particular time to our loved ones. We can set reminders. Suppose at
-12 o'clock you want to wish your friend happy birthday so schedule your
-messages and sleep peacefully.
+This contains a basic idea of my way to integrate a WhatsApp with core ERP (Enterprise Resource Planning) softwares for data abstraction and mass blasting for enabling clients and customers for real time tracking and updates
 
 ---
 
@@ -93,15 +89,14 @@ Enter unsaved contact number with country code(interger)->919899123456
 
 ### NOTE: For unsaved contacts:
 Do enter your country code then contact number.
->Use: 919899123456
+>Use: 9197798671025
 >
->Don't Use: +919899123456
+>Don't Use: +917798671025
 
 
 
 ### input_message()
-In this function we take input of message to send to all the Contacts
-list from user.
+In this function we take input of message to send to all the contacts from user (saved or unsaved).
 
 Example:
 >Enter the msg to send-> Good morning
@@ -111,13 +106,12 @@ Example:
 >
 >input time in 24 hour (HH:MM) format - 10:10
 
-NOTE: If testing program for the first time Scheduling should be `no`
-inorder to check it is working perfectly.
+NOTE: If testing program for the first time scheduling should be `no`, to check if it is working perfectly.
 
 ### Enter choice whether to send attachments or not.
 >Would you like to send attachment(yes/no): yes
 >
->Answer the input with yes or no.
+>Answer the input with either a yes or no.
 
 ### send_attachments()
 NOTE: Add Photos & Videos in the Media Folder.
@@ -157,39 +151,10 @@ schedule.every().day.at("08:30").do(sender)
 
 ---
 
-### Input Screenshot:
-<img
-src="https://raw.githubusercontent.com/shauryauppal/PyWhatsapp/master/Input_Type.PNG" height=300/>
-
----
-
-### Demo of Working (GIF)
-<img
-src="https://raw.githubusercontent.com/shauryauppal/PyWhatsapp/master/Media/Demo.gif" height=400 width=400/>
-
----
-
-## Contributions
-<a href="https://github.com/shauryauppal/PyWhatsapp/issues"> Issues </a>
-and <a href ="https://github.com/shauryauppal/PyWhatsapp/pulls"> Pull
-requests </a> are most welcome.
-
----
-## License
-License
-Code and documentation are available according to the Apache License
-(see <a
-href="https://github.com/shauryauppal/PyWhatsapp/blob/master/LICENSE">LICENSE</a>).
-
----
-
 ## Author:
-## <a href="https://www.linkedin.com/in/shaurya-uppal/">Shaurya Uppal</a>
+## <a href="https://www.linkedin.com/in/vedant-ghodke-34b124168/">VEDANT GHODKE</a>
 
-shauryauppal00111@gmail.com
+vedantghodke@gmail.com
+Cell: +91 7798671025
 
-Feel free to mail me for any queries (After you have tried finding your
-solution).
-
-#### If this helped you in any way gift me a cup of coffee :coffee:
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UXSREFS2VFSWU)
+Feel free to mail me or call me for any queries! Always up for a great discussion!
