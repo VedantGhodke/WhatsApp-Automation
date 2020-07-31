@@ -1,26 +1,21 @@
 # WhatsApp Automation Using Python
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://github.com/shauryauppal/PyWhatsapp)  [![License](https://img.shields.io/github/license/shauryauppal/PyWhatsapp.svg)](https://github.com/shauryauppal/PyWhatsapp/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/shauryauppal/PyWhatsapp.svg)](https://github.com/shauryauppal/PyWhatsapp/stargazers)  [![HitCount](http://hits.dwyl.io/shauryauppal/PyWhatsapp.svg)](http://hits.dwyl.io/shauryauppal/PyWhatsapp)
 
-## Python Automation using Selenium &amp; Scheduling of messages and media
+## Python Automation using Selenium And Scheduling of Messages and Media
 
 ## Objective:
-Pywhatsapp is used to Automate Whatsapp through Whatsapp web. We can
-add number of contacts whom we want to send messages or Media
-attachments ( like Video or Images). Selenium, Autoit and Schedule have
-been used one from Automation and other for Scheduling messages.
+This project is used to automate Whatsapp through Whatsapp Web. We can
+add number of contacts to whom we want to send messages or share media
+attachments (videos or images). Selenium, Autoit and Schedule have
+been used; one for automation and other for scheduling messages.
 
 ---
 
 ## Use Case:
-We can schedule Good Morning or Good night messages with a nice Picture
+We can schedule Good Morning or Good Night messages with a nice picture
 at a particular time to our loved ones. We can set reminders. Suppose at
 12 o'clock you want to wish your friend happy birthday so schedule your
 messages and sleep peacefully.
-
----
-
-###### PyWhatsapp is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial
-<a href="https://tracking.gitads.io/?repo=PyWhatsapp"> <img src="https://images.gitads.io/PyWhatsapp" alt="GitAds" width="580" height="200"/> </a>
 
 ---
 
@@ -36,46 +31,40 @@ OR
 >
 >$ pip install PyAutoIt
 
-###### NOTE: If there is any issue in installation of pyautoit then clone the repo and install from repo. [LINK](https://github.com/jacexh/pyautoit)
+###### NOTE: If there is any issue in installation of pyautoit then clone the repo and install from the following repository.
+
+[LINK](https://github.com/jacexh/pyautoit)
 ---
 
 ### Platform: Windows
 ChromeDriver used: If this versions becomes outdated or gives problem
-download the latest version from <a href =
-"http://chromedriver.chromium.org/downloads"> Download Link </a>
+download the latest version from <a href ="http://chromedriver.chromium.org/downloads">Windows ChromeDriver Download Link </a>
 
-### Platform Mac
-Remove the ChromeDriverused in the repository and install <a href =
-"https://chromedriver.storage.googleapis.com/2.42/chromedriver_mac64.zip">Mac ChromeDrive Download Link</a>
+### Platform: Mac
+Remove the ChromeDriver used in the repository and install <a href =
+"https://chromedriver.storage.googleapis.com/2.42/chromedriver_mac64.zip">Mac ChromeDriver Download Link </a>
 
->Set ChromeDriver path in function whatsapp_login()
-><a href ="https://stackoverflow.com/a/44870398/6897603">Set
->  ChromeDriver Path in MacOS</a>
+>Set ChromeDriver path in function whatsapp_login()><a href ="https://stackoverflow.com/a/44870398/6897603">Set>  ChromeDriver Path in MacOS</a>
 
 ---
-### For Sending Attachments you need to Install AutoIt (Optional, if you only want to send messages) | (Only FOR WINDOWS USERS):
+### For sending attachments you need to install AutoIt (optional if you only want to send messages) | (Only for Windows users):
 
-You may install from the links given below or Install from the folder
-named "Install AutoIt for Sending Attachments" in the repository.
+You may install from the links given below or install from the folder named "Install AutoIt for Sending Attachments" in this repository.
 
-<a href = "https://www.autoitscript.com/site/autoit/downloads/">Official
-Website Download Webpage</a>
+<a href = "https://www.autoitscript.com/site/autoit/downloads/">Official Website Download Webpage</a>
 
-<a href =
-"https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe"> Installation Link of AutoIt.exe</a>
+<a href = "https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe"> Installation Link of AutoIt.exe</a>
 
-<a href =
-"https://www.autoitscript.com/cgi-bin/getfile.pl?../autoit3/scite/download/SciTE4AutoIt3.exe"> AutoitScript Editor (optional to install) </a>
+<a href = "https://www.autoitscript.com/cgi-bin/getfile.pl?../autoit3/scite/download/SciTE4AutoIt3.exe"> AutoitScript Editor (optional to install) </a>
 
-Installation is pretty Simple no changes in setting are required keep
-everything default. Few clicks on Next and you are done.
+Installation is pretty simple and no changes are required in settings, keep everything default. Few clicks on 'Next' and you are done.
 
 ---
 
 ## Feature Enhancement: 
-QR CODE Scanning: On receiving a lot of complaints about QR Code Scanning Issue again and again. I have added a Cookie system that will save your session so that whatsapp don't think you are login for first time. By Saving Session data you will have to scan QR Code to Login only once or till the time whatsapp doesnot log you out from whatsappweb.
+QR CODE Scanning: On receiving a lot of complaints about QR Code scanning issue again and again, I have added a cookie system that will save your session so that WhatsApp doesn't think you are logging for first time. By saving session data you will have to scan QR Code to login only once or till the time WhatsApp does not log you out from whatsappweb.com
 
-NOTE: A folder User_Data will be created which has all your session information. Keep this Folder VERY SAFE. 
+NOTE: A folder User_Data will be created which has all your session information. Keep this folder **VERY SAFE**. 
 
 ## Code:
 ### Added ArgParser
@@ -84,8 +73,8 @@ NOTE: A folder User_Data will be created which has all your session information.
   --message (optional) MESSAGE Enter the msg you want to send <br>
   --remove_cache (optional) REMOVE_CACHE Remove Cache | Scan QR again or Not <br>
 
-For Windows: `python3 PyWhatsapp.py --chrome_driver_path './chromedriver.exe' --message 'Hi Shaurya, How Are you?'`
-<br>For MACOS: `python3 PyWhatsapp.py --chrome_driver_path './chromedriver' --message 'Hi Shaurya, How Are you?'`
+For Windows: `python3 PyWhatsapp.py --chrome_driver_path './chromedriver.exe' --message 'Hi Vedant, How Are you?'`
+<br>For MACOS: `python3 PyWhatsapp.py --chrome_driver_path './chromedriver' --message 'Hi Vedant, How Are you?'`
 
 ### input_contacts()
 
@@ -186,7 +175,6 @@ src="https://raw.githubusercontent.com/shauryauppal/PyWhatsapp/master/Media/Demo
 ## License
 License
 Code and documentation are available according to the Apache License
-(see <a
-href="https://github.com/shauryauppal/PyWhatsapp/blob/master/LICENSE">LICENSE</a>).
+(see <a href="https://github.com/VEDANTGHODKE/WhatsApp-Automation/LICENSE">LICENSE</a>).
 
 ---
